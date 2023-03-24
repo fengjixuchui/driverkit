@@ -19,6 +19,7 @@ type Build struct {
 	ModuleDeviceName string
 	BuilderImage     string
 	BuilderRepos     []string
+	ImagesListers    []ImagesLister
 	KernelUrls       []string
 	GCCVersion       string
 	RepoOrg          string
